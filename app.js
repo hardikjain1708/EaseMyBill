@@ -20,7 +20,7 @@ const customerRoutes = require('./routes/customers');
 
 mongoose.connect('mongodb://localhost:27017/EaseMyBill', {
     useNewUrlParser: true,
-    useCreateIndex: true,
+//     useCreateIndex: true,
     useUnifiedTopology: true,
     useFindAndModify: false
 });
